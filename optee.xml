@@ -3,6 +3,7 @@
   <remote name="github"
     fetch="https://github.com/" />
 
+  <!--
   <remove-project name="device/linaro/hikey" />
   <remove-project name="device/linaro/hikey-kernel" />
 
@@ -11,6 +12,7 @@
 
   <project path="device/linaro/hikey-kernel" name="linaro-swg/linux"
     revision="aosp-optee-4.4" remote="github" />
+  -->
 
   <project path="external/optee_test" name="OP-TEE/optee_test" revision="master" remote="github" />
 
