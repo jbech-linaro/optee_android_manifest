@@ -14,7 +14,7 @@
     revision="aosp-optee-4.4" remote="github" />
   -->
 
-  <project path="external/optee_test" name="jbech-linaro/optee_test" revision="master" remote="github" />
+  <project path="external/optee_test" name="jbech-linaro/optee_test" revision="aosp-optee-4.9" remote="github" />
 
   <project path="external/optee_client" name="jbech-linaro/optee_client" revision="aosp-optee-4.9" remote="github" />
 
