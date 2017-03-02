@@ -3,27 +3,15 @@
   <remote name="github" fetch="https://github.com/" />
   <remote name="aosp-src" fetch="https://android.googlesource.com" />
 
-  <!--
   <remove-project name="device/linaro/hikey" />
-  <remove-project name="device/linaro/hikey-kernel" />
 
-  <project path="device/linaro/hikey" name="linaro-swg/device-linaro-hikey"
-    revision="master" remote="github" />
-
-  <project path="device/linaro/hikey-kernel" name="linaro-swg/linux"
-    revision="aosp-optee-4.4" remote="github" />
-  -->
-
-  <project path="external/optee_test" name="jbech-linaro/optee_test" revision="aosp-optee-4.9" remote="github" />
-
-  <project path="external/optee_client" name="jbech-linaro/optee_client" revision="aosp-optee-4.9" remote="github" />
-
-  <project path="optee/optee_os" name="jbech-linaro/optee_os" revision="aosp-optee-4.9" remote="github" />
-
-  <project path="external/optee_hello_world" name="linaro-swg/hello_world" revision="master" remote="github" />
+  <project path="device/linaro/hikey" name="jbech/device-linaro-hikey" revision="aosp-optee-4.9" remote="github" />
+  <project path="device/linaro/hikey-kernel-src" name="kernel/hikey-linaro" revision="android-hikey-linaro-4.9" remote="aosp-src" />
 
   <project path="optee" name="jbech-linaro/optee_android_tools" revision="kernel49" remote="github" />
 
-  <project path="device/linaro/hikey-kernel-src" name="kernel/hikey-linaro" revision="android-hikey-linaro-4.9" remote="aosp-src" />
-
+  <project path="optee/optee_os" name="jbech-linaro/optee_os" revision="aosp-optee-4.9" remote="github" />
+  <project path="external/optee_client" name="OP-TEE/optee_client" revision="master" remote="github" />
+  <project path="external/optee_test" name="OP-TEE/optee_test" revision="master" remote="github" />
+  <project path="external/optee_hello_world" name="linaro-swg/hello_world" revision="master" remote="github" />
 </manifest>
