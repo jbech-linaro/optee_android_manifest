@@ -6,7 +6,7 @@
   <remove-project name="device/linaro/hikey" />
 
   <project path="device/linaro/hikey" name="jbech-linaro/device-linaro-hikey" revision="aosp-optee-4.9" remote="github" />
-  <project path="device/linaro/hikey-kernel-src" name="kernel/hikey-linaro" revision="android-hikey-linaro-4.9" remote="aosp-src" />
+  <project path="device/linaro/hikey-kernel-src" name="jbech-linaro/linux" revision="aosp-optee-4.9" remote="github" />
 
   <project path="optee" name="jbech-linaro/optee_android_tools" revision="kernel49" remote="github" />
 
